@@ -1,5 +1,7 @@
 <?php
 
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
     $to = "andrewapinon@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
